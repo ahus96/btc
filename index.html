@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTC XCHANGE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="app.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <section id="hero" class="hero">
+        <div class="hero-body">
+
+            <div>
+                <p class="title">
+                    BTC XCHANGE </p>
+                <p class="subtitle">
+                    Please enter a BTC value below </p>
+            </div>
+        </div>
+        <div id="card" class="card">
+            <div class="card-content $card-header-background-color">
+                <div class="content">
+                    <input class="input is-primary" id="input" type="number" placeholder="Enter BTC" name="query"
+                        value="">
+
+                    <div class="column">
+                        <select class="select is-link" id="select">
+                            <option value="USD">USD</option>
+                            <option value="GBP">GBP</option>
+                            <option value="JPY">JPY</option>
+                        </select>
+                        <button id="convert" class="button is-link is-hovered">Convert</button>
+                        <button id="reset" class="button is-hovered">Reset</button>
+                    </div>
+                    <div>
+                        <span id="result"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- <input class="input is-primary" id="input" type="number" placeholder="Enter BTC" name="query" value="">
+
+        <div class="column">
+            <select class="select is-link" id="select">
+                <option value="USD">USD</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+            </select>
+            <button id="convert" class="button is-primary is-light">Convert</button>
+            <button id="reset" class="button is-link is-light">Reset</button>
+        </div>
+        <div>
+            <span id="result"></span>
+        </div> -->
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

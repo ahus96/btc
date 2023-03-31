@@ -1,0 +1,50 @@
+body {
+
+    min-height: 400em;
+    background-color: rgb(9, 9, 48);
+
+}
+
+h1 {
+
+    text-align: center;
+}
+
+div {
+
+    text-align: center;
+}
+
+.hero {
+
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+
+    max-width: 80%;
+    background-color: #fff0;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.subtitle {
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+
+span {
+    font-style: inherit;
+    font-weight: inherit;
+    color: white;
+}
